@@ -27,16 +27,13 @@ public class homeworkJava2 {
         System.out.println(greeting);
     }
 
-    //1~10まで足した結果を表示してみよう
+    //1~10まで足した結果を表示してみよう これ以外にどう書くんだろうか
     public static void math(){
         int sum = 0;
-        for(int i = 0;i <= 10; i++){
+        for(int i = 0;i <= 10; i++) {
             sum += i;
-            if(i == 10){
-                System.out.println(sum);
-            }
-
         }
+        System.out.println(sum);
     }
 
     //3年後の今日が何曜日なのかを計算して表示しよう
